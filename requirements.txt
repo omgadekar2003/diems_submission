@@ -1,3 +1,4 @@
+#requirements.txt
 name: app_environment
 channels:
   - snowflake
