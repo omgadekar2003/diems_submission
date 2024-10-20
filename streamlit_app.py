@@ -1,7 +1,7 @@
 
 #Import python packages
 import streamlit as st
-from snowflake.snowpark.context import get_active_session
+#from snowflake.snowpark.context import get_active_session
 from snowflake.snowpark.functions import col
 import pandas as pd
 
@@ -65,8 +65,8 @@ st.write("You selected Subject is:", subject_option)
 
 
 
-
-session = get_active_session()
+cnx = st.connection("snowflake")
+session = cnx.session()
 
 # Select ROLL_NO, NAME_OF_STUDENT, and CLASS columns from the table
 my_dataframe = session.table("DIEMS_CA.PUBLIC.STUDENT_DETAILS").select(col('ROLL_NO'), col('NAME_OF_STUDENT'), col('CLASS'))
