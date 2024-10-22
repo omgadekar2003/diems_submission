@@ -14,7 +14,7 @@ import pandas as pd
 # Image URLs
 image_url_left = "https://media.licdn.com/dms/image/D4E12AQF-BvR3QRs9gw/article-cover_image-shrink_720_1280/0/1656343174665?e=2147483647&v=beta&t=T3dP2OU7Tbws3Ap79YdaIIYX1st1UqSW1TeKVdH6L48"
 image_url_center = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkM0Emsq4_Gz6ZqhBstMmUDwDeogsSd0zcQQ&s"
-image_url_right = "https://www.uptoplay.net/imagescropped/diemsnoticesicon128.jpg.webp"
+image_url_right = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNJPCSW6vODsYm4m6rCUCm0OdwtC1WMbFGAw&s"
 
 # Layout using Streamlit columns
 col1, col2, col3 = st.columns([1, 2, 1])  # Adjust the proportions of the columns
